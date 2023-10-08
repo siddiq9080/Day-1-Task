@@ -1,0 +1,44 @@
+Read about IP address, port, HTTP methods, MAC address
+
+Ans:
+
+IP Address (Internet Protocol Address):
+
+An IP address is a unique numerical label assigned to each device connected to a computer network that uses the Internet Protocol for communication. It serves two main functions: identifying the host or network interface and providing the location of the host in the network. There are two primary versions of IP addresses in use today:
+
+IPv4 (Internet Protocol version 4): This is the older and more widely used version, represented as four sets of decimal numbers separated by dots (e.g., 192.168.1.1).
+
+IPv6 (Internet Protocol version 6): As IPv4 addresses became exhausted due to the rapid growth of the internet, IPv6 was introduced. It uses a longer format, consisting of eight groups of hexadecimal numbers separated by colons (e.g., 2001:0db8:85a3:0000:0000:8a2e:0370:7334). IPv6 provides a vastly larger address space to accommodate the growing number of connected devices.
+
+
+Port:
+
+A port is a logical endpoint for communication within a computer network. Ports are used to differentiate between different services or processes running on the same device. In networking, ports are identified by numbers, ranging from 0 to 65535. They are often categorized into three ranges:
+
+Well-known ports (0-1023): Reserved for commonly used services such as HTTP (port 80), HTTPS (port 443), FTP (port 21), and more.
+
+Registered ports (1024-49151): Assigned by the Internet Assigned Numbers Authority (IANA) for various applications and services not covered by well-known ports.
+
+Dynamic or private ports (49152-65535): Used for ephemeral or temporary connections between clients and servers.
+
+
+HTTP Methods (Hypertext Transfer Protocol Methods):
+
+HTTP methods are verbs used to define the action to be performed on a resource when making requests to web servers. The most common HTTP methods include:
+
+GET: Used to retrieve data from a specified resource.
+POST: Used to submit data to be processed to a specified resource.
+PUT: Used to update a specified resource.
+DELETE: Used to remove a specified resource.
+PATCH: Used to apply partial modifications to a resource.
+HEAD: Similar to GET but retrieves only the headers and not the actual data.
+OPTIONS: Used to describe the communication options for a target resource.
+These HTTP methods help determine the type of operation a client wants to perform on a web server, allowing for various interactions with web resources.
+
+MAC Address (Media Access Control Address):
+
+A MAC address is a unique hardware address assigned to each network interface controller (NIC) or network card in a device, such as a computer or smartphone. Unlike IP addresses, which can change when devices connect to different networks, MAC addresses are typically fixed and assigned by the device manufacturer. They are used at the data link layer of the OSI model to identify and locate devices within a local network, such as an Ethernet network.
+
+MAC addresses are represented as a series of hexadecimal numbers, typically written with colons or hyphens to separate the values (e.g., 00:1A:2B:3C:4D:5E).
+
+Understanding these fundamental networking concepts is essential for working with computer networks, the internet, and web technologies. They form the basis of how data is transmitted and received across digital networks.
